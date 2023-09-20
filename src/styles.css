@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #777;
+}
+
+button {
+  padding: 10px 40px;
+  border-radius: 15px;
+  border: 2px solid #777;
+}
+button:hover {
+  background-color: #4caf50;
+  color: white;
+}
